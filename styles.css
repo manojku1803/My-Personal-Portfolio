@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Square+Peg&family=Ubuntu&display=swap');
+
+
+
+h1{
+    font-family: 'Square Peg', cursive; 
+    font-size: 100px;
+    color:#EAEAEA;
+    
+}
+
+h2,h3,p{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+hr{
+    border: dotted #7e8b8b 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+}
+
+nav ul {
+    display: flex;
+
+    list-style-type: none;
+    height: 65px;
+}
+
+
+
+.top-container {
+   
+    /* background-color: #DBE2EF; */
+    color: #DBE2EF;
+    text-align: center;
+    padding: 50px ;
+    background-image: url(images/pexels-paras-katwal-4218883.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.p-top-container{
+    padding: 50px 0 100px 0;
+    color: grey;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.img-top-container {
+    width: 800px;
+    height: 500px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    color: #DBE2EF;
+
+}
+
+nav ul li {
+    padding: 0 12px;
+    text-align: right;
+}
+
+.brand {
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+    
+}
+
+
+.mid-container {
+    background-color: #EAEAEA;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.heading-mid-container{
+    font-size: 40px;
+    color: #252A34;
+}
+
+.p-mid-container{
+    padding: 30px 20%;
+    font-size: 20px;
+}
+
+.img-mid-container {
+    width: 200px;
+    height: 200px;
+    margin: 50px 0;
+    
+}
+
+
+.skill-row{
+    width: 50%  ;
+    margin:100px auto 100px auto;
+    text-align: left;
+}
+
+.skill-heading{
+    font-size: 30px;
+    color: #252A34;
+}
+.skill-1{
+    padding: 60px 30%;
+
+    
+}
+.skill-2{
+    padding: 60px 30%;
+}
+.skill-3{
+    padding: 60px 30%;
+}
+ .img-skill-1{
+    width: 25%;
+    float: right;
+    margin:0 30px;
+}
+.img-skill-2{
+    width: 25%;
+    float: left;
+    margin:0 30px ;
+}
+
+.img-skill-3{
+    width: 25%;
+    float: right;
+    margin:0 30px;
+    
+}
+
+.h3-skill-names-1{
+    text-align: right;
+    padding-bottom: 20px;
+}
+.h3-skill-names-2{
+    text-align: left;
+    padding-bottom: 20px;
+}
+.h3-skill-names-3{
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.p-skill-names-1{
+    text-align: right;
+}
+.p-skill-names-2{
+    text-align: left;
+}
+.p-skill-names-3{
+    text-align: right;
+}
+
+
+.bottom-container {
+    background-color: #252A34;
+    color: #246a69;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.img-footer{
+    width: 30px;
+    height: 30px ;
+    margin: 20px;
+    
+    
+}
+.img-footer:hover{
+    color: white;
+    box-shadow: #252A34;
+}
+
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
